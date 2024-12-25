@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday | Duke</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "c5XpDR5Q3l7n_kesg",
+      });
+   })();
+    </script>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" href="./image/hat.png">
+</head>
+
+<body>
+    <div class="main">
+        <div class="welcome">
+            <h1>Happy Birthday</h1>
+            <h2>Chukwubunwannem</h2>
+            <video src="./image/RRre1fL-Imgur.mp4" autoplay loop></video>
+        </div>         
+        <div class="first">
+
+            <div class="top">
+                <a href="#body" class="str">Send Wishes</a>
+                <div class="test-frame">
+                    <img src="./image/BIRTHDAYTEXT.png" alt="Happy Birthday">
+                </div>
+                <a href="#gal" class="gal">Gallery</a>
+            </div>
+
+            <div class="wish">
+                <h3 class="pop-top">Hope you have a <span class="day">GREAT DAY</span></h3>
+                <h3 class="pop-bottom">today and the <span class="year">year</span> ahead is<br> <span class="full">full of blessings</span></h3>
+
+                <div class="link">
+                    <a href="#puzzle" class="puzzle">Solve a Puzzle <img src="./image/puzzle.svg" alt=""></a>
+                    <a href="#gal" class="gallery">Gallery <img src="./image/gallery.svg" alt=""></a>
+                </div>
+            </div>
+
+            <div class="loop">
+                <video src="./image/nwokeadinjo.mp4" autoplay loop muted></video>
+            </div>
+        </div>
+
+        <div class="body" id="body">
+            <div class="left">
+                <form id="birthday-wishes-form" method="POST">
+                    <h6 class="form-head">Send Your Birthday Wishes</h6>
+                  
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required autofocus>
+                  
+                    <label for="phone">Your Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                  
+                    <label for="message">Your Wishes:</label>
+                    <textarea id="message" name="message" cols="30" rows="10" placeholder="Write your birthday wishes here..." required></textarea>
+                  
+                    <button type="submit" id="send-button">Send Wishes</button>
+                  </form>
+            </div>
+
+            <div class="carousel">
+                <div class="carousel-images">
+                  <img src="image/image21.jpg" alt="Image 1" width="804" style="z-index: 100;">
+                  <img src="image/image17.jpg" alt="Image 2" width="756" style="z-index: 100;">
+                  <img src="image/image20.jpg" alt="Image 3" width="810" style="z-index: 100;">
+                </div>
+              </div>
+        </div>
+
+
+        <div class="main-gallery" id="gal">
+
+            <div class="extra-text">
+                <h4 style="color: #ff6b01;">Welcome to</h4>
+                <h4 class="text-frame">Gallery</h4>
+            </div>
+
+            <div class="extra-pic">                
+                <div class="box-1">
+                    <div class="box-pic">
+                        <img src="./image/image01.jpg" alt="" class="gallery-item" onclick="openModal(this)">
+                    </div>
+                    <h5>After Lectures | 202*<br>SEET Complex FUTO</h5>
+                </div>
+
+                <div class="box">
+                    <div class="box-pic">
+                        <img src="./image/image02.jpg" alt="" class="gallery-item" onclick="openModal(this)">
+                    </div>
+                    <h5>After Lectures | 202*<br>SEET Complex FUTO</h5>
+                </div>
+                
+                <div class="box">
+                    <div class="box-pic">
+                        <img src="./image/image08.jpg" alt="" class="gallery-item" onclick="openModal(this)">
+                    </div>
+                    <h5>Daniel, Stephen, Duke | 202*<br>SEET Complex FUTO</h5>
+                </div>
+                
+                <div class="box">
+                    <div class="box-pic">
+                        <img src="./image/image04.jpg" alt="" class="gallery-item" onclick="openModal(this)">
+                    </div>
+                    <h5>Stephen & Duke | 202*<br>St. John Ang. Church</h5>
+                </div>
+
+                <div class="box-1">
+                    <div class="box-pic">
+                        <img src="./image/image03.jpg" alt=""class="gallery-item" onclick="openModal(this)">
+                    </div>
+                    <h5>Duke | 202*<br>SEET Complex FUTO</h5>
+                </div>
+
+                <div class="box">
+                    <div class="box-pic">
+                        <img src="./image/image06.jpg" alt="" class="gallery-item" onclick="openModal(this)">
+                    </div>
+                    <h5>Daniel & Duke | 2023<br>SEET Complex FUTO</h5>
+                </div>
+            
+                
+                <div class="box">
+                    <div class="box-pic">
+                        <img src="./image/image07.jpg" alt="" class="gallery-item" onclick="openModal(this)">
+                    </div>
+                    <h5>Nwokeadinjo | 202*<br>FUTO Cafe</h5>
+                </div>
+
+                <div class="box">
+                    <div class="box-pic">
+                        <img src="./image/image05.jpg" alt="" class="gallery-item" onclick="openModal(this)">
+                    </div>
+                    <h5>Nwokeadinjo | 2024<br>SEET Complex FUTO</h5>
+                </div>
+
+                <div class="box-1">
+                    <div class="box-pic">
+                        <img src="./image/image09.jpg" alt="" class="gallery-item" onclick="openModal(this)">
+                    </div>
+                    <h5>Stephen & Duke | 202*<br>SEET Complex FUTO</h5>
+                </div>
+
+
+                <div class="box-1">
+                    <div class="box-pic">
+                        <img src="./image/image10.jpg" alt="" class="gallery-item" onclick="openModal(this)">
+                    </div>
+                    <h5>Stephen & Duke | 202*<br>SEET Complex</h5>
+                </div>
+
+                <div class="box">
+                    <div class="box-pic">
+                        <img src="./image/image11.jpg" alt="" class="gallery-item" onclick="openModal(this)">
+                    </div>
+                    <h5>Steve & Duke | <br>During Project Defence</h5>
+                </div>
+
+                <div class="box">
+                    <div class="box-pic">
+                        <img src="./image/image12.jpg" alt="" class="gallery-item" onclick="openModal(this)">
+                    </div>
+                    <h5>Nwokeadinjo | 202*<br></h5>
+                </div>
+                <div class="box">
+                    <div class="box-pic">
+                        <img src="./image/image13.jpg" alt="" class="gallery-item" onclick="openModal(this)">
+                    </div>
+                    <h5>Steve's Music Concert | 2024<br>Father's House</h5>
+                </div>
+
+                <div class="box-1">
+                    <div class="box-pic">
+                        <img src="./image/image14.jpg" alt="" class="gallery-item" onclick="openModal(this)">
+                    </div>
+                    <h5>Morning before project defence | 202*<br>Oxford Lodge</h5>
+                </div>
+
+                <div class="box">
+                    <div class="box-pic">
+                        <img src="./image/image15.jpg" alt="" class="gallery-item" onclick="openModal(this)">
+                    </div>
+                    <h5>Morning before project defence | 202*<br>Oxford Lodge</h5>
+                </div>
+                <div class="box">
+                    <div class="box-pic">
+                        <img src="./image/image19.jpg" alt="" class="gallery-item" onclick="openModal(this)">
+                    </div>
+                    <h5>Nwokeadinjo | 202*<br>Iwenofu's, Ibolo</h5>
+                </div>
+
+                <div class="box-1">
+                    <div class="box-pic">
+                        <img src="./image/image16.jpg" alt="" class="gallery-item" onclick="openModal(this)">
+                    </div>
+                    <h5>Steve & Duke after Steve's Concert | 2024<br>Father's House</h5>
+                </div>
+
+                <div class="box">
+                    <div class="box-pic">
+                        <img src="./image/image18.jpg" alt="" class="gallery-item" onclick="openModal(this)">
+                    </div>
+                    <h5>Nwokeadinjo | 202*<br>Iwenofu's, Ibolo</h5>
+                </div>
+                
+                <div id="image-modal" class="modal" onclick="closeModal()">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <img class="modal-content" id="modal-image">
+                    <div id="caption"></div>
+                  </div>
+                
+            </div>
+        </div>
+
+        <section class="main-story" id="puzzle">
+            <section class="birthday-puzzle">
+                <h5> <span class="p-word">Birthday</span> <span class="nowrap">Word <span class="p-puzzle">Puzzle</span></span></h5>
+                <p>Guess the hidden word.<br>Let's see how much you know him:</p>
+                <p id="hint">Hint: His Field of Study.</p>
+                <div class="puzzle-word">
+                  <span class="letter">_</span>
+                  <span class="letter">_</span>
+                  <span class="letter">_</span>
+                  <span class="letter">_</span>
+                  <span class="letter">_</span>
+                  <span class="letter">_</span>
+                </div>
+                <input
+                  type="text"
+                  id="guess-input"
+                  placeholder="Enter a letter"
+                  maxlength="1"
+                /> <br>
+                <button id="submit-guess">Guess</button>
+                <p id="feedback"></p>
+                <p>Guesses Left: <span id="guesses-left">5</span></p>
+                <p>Score: <span id="score">0</span></p>
+              </section>
+        </section>
+
+        <div class="extras">
+            <div class="extras-image">
+                <img src="./image/splash.png" alt="">
+            </div>
+            <h3><span class="magneta">Spreading </span><span class="green">Joy</span> and <span class="orange">Happiness</span> on this Special Day with you<br>DUKE<span class="white">🥳👷🧱</span></h3> 
+        </div>
+
+    </div>
+
+    <div class="footer">&copy; 2024 | Cardinalytics</div>
+    <script src="script.js"></script>
+
+</body>
+</html>
